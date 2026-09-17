@@ -3,6 +3,7 @@
 ## 0.60.5 — Unreleased
 
 ### Fixed
+- Azure OpenAI: select OpenAI-compatible v1 in Settings without setting an environment variable.
 - Kimi: accept ratio-pool Code API responses, preserve absent weekly quotas, and show the reported monthly Total usage without browser authentication (#3694). Thanks @eliasburlison!
 - Cursor costs: stop immediate retry loops when fetched credentials remain unconfirmed, retain account ownership checks, and retry real account or cost-settings changes (related to #3249).
 - Sharing: label usage snapshots with the last included reporting day and preserve the dashboard timezone in images and copied text (#3692). Thanks @Chipagosfinest!
